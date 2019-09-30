@@ -70,7 +70,7 @@ class Kucing extends Binatang implements Karnifora
     {
         echo "<br><br>Binatang : Kucing ". $this->nama."<br>"."Jumlah Kaki : ".$this->jmlKaki;
         echo "<br>Suara : ".$this->suara."<br>"."Warna : ".$this->warnaBulu;
-        echo "<br>Jenis : Karnifora<br> Makan : Daging";
+        echo "<br>tipe : Karnifora<br> Makanan : hewan lain";
     }
 }
 
@@ -132,6 +132,7 @@ class Beruang extends Binatang implements Karnifora,Herbifora
     }
 }
 
+//main
 $Kucing = new Kucing("si belang", 4, "meong", "belang");
 $Gajah = new Gajah("gedhe",4, "bengok","hitam");
 $Beruang = new Beruang("garang",4, "meraung","coklat, hitam");
